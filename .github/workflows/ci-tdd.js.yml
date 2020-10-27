@@ -7,7 +7,7 @@ on:
   push:
     branches: [ master,hotfixes,release,develop ]
   pull_request:
-    branches: [ aster,hotfixes,release,develop ]
+    branches: [ master,hotfixes,release,develop ]
 
 jobs:
   build:
