@@ -42,4 +42,13 @@ it('should add 3.0+0.1416=3.1416', () => {
         expect(result).toBe(2.7);
     })
 
+    it('should add 8+0=8', () => {
+        // Arrange
+        let result = 0;
+        // Act
+        result = addition(8,0);
+        // Assert
+        expect(result).toBe(8);
+    })
+
 }) 
