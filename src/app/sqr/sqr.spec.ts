@@ -41,5 +41,5 @@ it('should sqr 4 ^ 2=16', () => {
         // Assert
         expect(result).toBe(25);
     })
-
+    // is ok
 }) 
