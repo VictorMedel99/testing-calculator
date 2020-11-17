@@ -1,34 +1,98 @@
 .calculator {
-    width: 150px;
+    width: 50%;
+    margin: auto;
+    height: 50px;
+    padding: 20px 0;
     text-align: center;
     color: #999;
+    align-items: center;
     }
-    
-    .result {
-    font-size: 3.0em;
+
+.title{
+    width: 80%;
+    margin: auto;
     font-weight: bold;
-    color: blue;
-    
-    }
-    
-    .operator1 {
+    text-align: center;
+    color: #999;
+}   
+
+.operator1 {
     font-size: 1.5em;
     font-weight: bold;
-    color: black;
+    color: black;    
+}
     
-    }
-    
-    .operator2 {
+.operator2 {
     font-size: 1.5em;
     font-weight: bold;
-    color: black;
-    
+    color: black;    
     }
-    .addition-button {
+
+.addition-button {
     cursor: pointer;
-    color: yellow;
+    font-weight: bold;
+    margin: 10px 20px;
     }
-    .substraction-button {
+
+.substraction-button {
     cursor: pointer;
-    color: yellow;
+    font-weight: bold;
+    margin: 10px 20px;
     } 
+
+.multiplication-button {
+    cursor: pointer;
+    font-weight: bold;
+    margin: 10px 20px;
+    }
+
+.divition-button {
+    cursor: pointer;
+    font-weight: bold;
+    margin: 10px 20px;
+    }
+
+.exp-button {
+    cursor: pointer;
+    font-weight: bold;
+    margin: 10px 20px;
+    }
+
+    
+.sqr-button {
+    cursor: pointer;
+    font-weight: bold;
+    margin: 10px 20px;
+    }
+
+.sqrt-button {
+    cursor: pointer;
+    font-weight: bold;
+    margin: 10px 20px;
+   }
+
+
+.btn-operations{
+    margin: 60px;
+    padding: 20px 20;
+    height: 30px;
+}
+
+.result-operations{
+    margin: 60px;
+    padding: 20px 20;
+    height: 40px;
+}
+
+
+.inputs-operators{
+    margin-top: 60px;
+    margin: 60px;
+    padding: 20px 20;
+    height: 40px;
+}
+
+.result {
+    font-size: 3.0em;
+    font-weight: bold;  
+    }
